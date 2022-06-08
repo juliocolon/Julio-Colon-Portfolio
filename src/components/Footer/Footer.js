@@ -17,7 +17,7 @@ const Footer = () => {
            <h2 style={{ color: "#FFFFFF", 
                    textAlign: "center", 
                    marginTop: "-50px" }}>
-      <a href="/#top" style={{color:"#FFFFFF", textDecoration: 'none'}}>Get In Touch</a>
+      <a href="#top" style={{color:"#FFFFFF", textDecoration: 'none'}}>Get In Touch</a>
       </h2>
         <Row>
           <Column>
@@ -30,7 +30,7 @@ const Footer = () => {
             <Heading><FooterLink href="https://twitter.com/JCCologne" target="_blank"><img src="/twitter.png" alt="logo" /></FooterLink></Heading>
           </Column>
           <Column>
-            <Heading> <FooterLink href="mailto: jcolon1092@gmail.com"><img src="/email.png" alt="logo" /> </FooterLink></Heading>
+            <Heading id="footer"> <FooterLink href="mailto: jcolon1092@gmail.com"><img src="/email.png" alt="logo" /> </FooterLink></Heading>
         
           </Column>
         </Row>

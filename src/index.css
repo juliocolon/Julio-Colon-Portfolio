@@ -2,7 +2,7 @@
 
 
 .App {
-    background: linear-gradient(0deg, rgb(53, 47, 47) 0%, rgb(82, 92, 102) 100%);
+    background: radial-gradient(circle, rgba(125,129,147,1) 0%, rgba(15,13,14,0.9542410714285714) 100%);
     font-family: 'Ubuntu Mono', monospace;
     font-size: larger;
     scroll-behavior: smooth;

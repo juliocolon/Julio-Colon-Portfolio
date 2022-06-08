@@ -11,7 +11,7 @@ export default function About() {
             <span className={styles.statement}>I'm a Marketing Professional & Software Engineer specializing in the MERN Stack.</span>
             <div className={styles.text}>
                 <p>My goal is to build intuitive, user-first, digital experiences.</p>
-                <p>To learn more about my professional background, click here to view & download my <a className={styles.anchor} href="https://pdfhost.io/v/gugwBMwm._Julio_Colon_Resume" target="_blank">resume</a>.</p>
+                <p>To learn more about my professional background, click here to view my <a className={styles.anchor} href="https://pdfhost.io/v/gugwBMwm._Julio_Colon_Resume" target="_blank">resume</a>.</p>
             </div>
 
         </div>
