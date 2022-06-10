@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     margin: 2% auto; 
     padding: 1%;
-    width: 80%;
+    width: 90%;
 }
 .title{
     font-weight: bold;
@@ -24,4 +24,28 @@
     margin-top: 3%;
     color: whitesmoke; 
     font-weight: bolder;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: 0;
+    
+}
+
+.button:hover{
+    color: whitesmoke;
+    opacity: 1;
+    background-color: black;
+    /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
 }
