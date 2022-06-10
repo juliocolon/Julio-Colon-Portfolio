@@ -9,6 +9,10 @@
     margin: auto;
 }
 
+.heading{
+    font-weight: bolder;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -28,7 +32,7 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    margin: 20px 20%;
+    margin: 20px;
 }
 
 .anchor{
@@ -55,6 +59,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 2%;
     font-size: 18px;
+    padding: 0 7%;
 }

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
    
 export const Box = styled.div`
-  padding: 100px 90px;
+  padding: 80px 90px;
   background: #212529;
   bottom: 0;
   width: 100%;
@@ -17,19 +17,18 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto;
 `
    
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: left;
-  margin-left: 60px;
-  margin-top: 50px;
+  margin: 2px auto; 
 `;
    
 export const Row = styled.div`
   display: grid;
+  padding-top: 7%; 
   grid-template-columns: repeat(auto-fill, 
                          minmax(185px, 1fr));
   grid-gap: 20px;

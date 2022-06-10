@@ -14,11 +14,12 @@ const Footer = () => {
     <Box>
    
       <Container>
-           <h2 style={{ color: "#FFFFFF", 
+           <h1 style={{ color: "#FFFFFF", 
                    textAlign: "center", 
-                   marginTop: "-50px" }}>
+                   marginTop: "-50px", 
+                   fontWeight: "bolder" }}>
       <a href="#top" style={{color:"#FFFFFF", textDecoration: 'none'}}>Get In Touch</a>
-      </h2>
+      </h1>
         <Row>
           <Column>
             <Heading><FooterLink href="https://github.com/juliocolon" target="_blank"><img src="/GitHub-Mark-Light-64px.png" alt="logo" /></FooterLink></Heading>

@@ -4,8 +4,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 2% auto; 
-    padding: 2%;
-    width: 70%;
+    padding: 1%;
+    width: 80%;
 }
 .title{
     font-weight: bold;
@@ -13,5 +13,15 @@
 
 .cardtext{
     color: grey;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    color: whitesmoke; 
     font-weight: bolder;
 }

@@ -7,7 +7,7 @@ import styles from "./ProjectCard.module.css"
 export default function ProjectCard() {
     return (
    <>    
-   <h1>Current Projects</h1>
+   <h1 className={styles.heading}>Current Projects</h1>
 <div className={styles.cards}>
  <Card style={{ width: '20rem', height:'34rem', margin: "3%" }}>
         <Card.Img className={styles.image} variant="top" src="/Boston Celtics Trivia.png" />
@@ -20,14 +20,14 @@ export default function ProjectCard() {
         </Card.Body>
       </Card>
       <Card style={{ width: '20rem', height:'34rem', margin: "3%"  }}>
-      <Card.Img className={styles.image} variant="top" src="holder.js/100px180" />
+      <Card.Img className={styles.image} variant="top" src="/sneaker forum.png" />
       <Card.Body>
         <Card.Title className={styles.title}>Sneaker Forum</Card.Title>
         <Card.Text className={styles.cardtext}>
-          Some quick example text to build on the card title and make up the bulk of
-          the card's content.
+          Sneaker Forum, allows users to to perform full CRUD operations on threads they create on different topics concerning sneakers. 
+          This application was built using MongoDB, Express, React.js, React Bootstrap, and Node.js. This application also features JWT authentication. 
         </Card.Text>
-        <Button variant="secondary">Go somewhere</Button>
+        <Button variant="secondary">View Project</Button>
       </Card.Body>
     </Card>
     <Card style={{ width: '20rem', height:'34rem', margin: "3%" }}>
@@ -35,8 +35,8 @@ export default function ProjectCard() {
     <Card.Body id="card">
       <Card.Title className={styles.title}>The Roaming Spoon</Card.Title>
       <Card.Text className={styles.cardtext}>
-        Yelp like food truck application, built using MongoDB, Express, React.js, and Node.js. 
-        The application was created in collaboration with General Assembly Software Engineering and UI/UX students.  
+        The Roaming Spoon is a Yelp like application for food trucks. This application was built using MongoDB, Express, React.js, React Bootstrap and Node.js. This application also features JWT authentication. 
+        The Roaming Spoon was created in collaboration with General Assembly Software Engineering and UI/UX students.
       </Card.Text>
       <Button href="https://github.com/juliocolon/roaming-food-trucks/tree/main" target="_blank" variant="secondary">View Project</Button>
     </Card.Body>
