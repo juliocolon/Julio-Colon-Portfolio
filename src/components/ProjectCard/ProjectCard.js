@@ -12,17 +12,17 @@ export default function ProjectCard() {
  <Card style={{ width: '20rem', height:'36rem', margin: "3%" }}>
         <Card.Img className={styles.image} variant="top" src="/Boston Celtics Trivia.png" />
         <Card.Body>
-          <Card.Title className={styles.title}>Boston Celtics Trivia</Card.Title>
+          <Card.Title className={styles.title}><a href="https://juliocolon.github.io/Boston-Celtics-Trivia-/" target="_blank">Boston Celtics Trivia</a></Card.Title>
           <Card.Text className={styles.cardtext}>
            Browser based trivia game based on the history of the Boston Celtics. The game features a win and lose state. Built using <em>HTML</em>, <em>CSS</em>, <em>Vanilla JavaScript</em> and <em>GitHub</em> for version control. 
           </Card.Text>
-          <Button  className={styles.button} href="https://github.com/juliocolon/Boston-Celtics-Trivia-" target="_blank" variant="secondary">View Project</Button>
+          <Button  className={styles.button} href="https://sneakers-forum.herokuapp.com/" target="_blank" variant="secondary">View Project</Button>
         </Card.Body>
       </Card>
       <Card style={{ width: '20rem', height:'36rem', margin: "3%"  }}>
       <Card.Img className={styles.image} variant="top" src="/sneaker forum.png" />
       <Card.Body>
-        <Card.Title className={styles.title}>Sneaker Forum</Card.Title>
+        <Card.Title className={styles.title}> <a href="https://roaming-spoon.herokuapp.com/" target="_blank">Sneaker Forum</a></Card.Title>
         <Card.Text className={styles.cardtext}>
           Sneaker Forum, allows users to perform full CRUD operations on threads they create on different topics concerning sneakers. 
           This application was built using MongoDB, Express, React.js, React Bootstrap, and Node.js. This application also features JWT authentication. 
@@ -33,7 +33,7 @@ export default function ProjectCard() {
     <Card style={{ width: '20rem', height:'36rem', margin: "3%" }}>
     <Card.Img className={styles.image} variant="top" src="/The Roaming Spoon.png" />
     <Card.Body id="card">
-      <Card.Title className={styles.title}>The Roaming Spoon</Card.Title>
+      <Card.Title className={styles.title}><a href="" target="_blank">The Roaming Spoon</a></Card.Title>
       <Card.Text className={styles.cardtext}>
         The Roaming Spoon is a Yelp like application for food trucks. This application was built using MongoDB, Express, React.js, React Bootstrap and Node.js. This application also features JWT authentication. 
         The Roaming Spoon was created in collaboration with General Assembly Software Engineering and UI/UX students.
