@@ -49,3 +49,21 @@
     /* Standard */
     transition: all 1s ease-in;
 }
+
+.link{
+    color: black; 
+    text-decoration: none;
+}
+.link:hover{
+    color: whitesmoke;
+    opacity: 1;
+    background-color: black;
+    /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+}
