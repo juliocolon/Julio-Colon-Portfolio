@@ -14,7 +14,7 @@ export default function ProjectCard() {
         <Card.Body>
           <Card.Title className={styles.title}><a className={styles.link}  href="https://juliocolon.github.io/Boston-Celtics-Trivia-/" target="_blank">Boston Celtics Trivia</a></Card.Title>
           <Card.Text className={styles.cardtext}>
-           Browser based trivia game based on the history of the Boston Celtics. The game features a win and lose state. Built using <em>HTML</em>, <em>CSS</em>, <em>Vanilla JavaScript</em> and <em>GitHub</em> for version control. 
+           Browser based trivia game based on the history of the Boston Celtics. The game features a win and lose state. Built using HTML, CSS, Vanilla JavaScript and GitHub for version control. 
           </Card.Text>
           <Button  className={styles.button} href="https://sneakers-forum.herokuapp.com/" target="_blank" variant="secondary">View Project</Button>
         </Card.Body>
